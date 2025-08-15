@@ -1,0 +1,85 @@
+baseURL = "https://ertzizart.com"
+languageCode = "en"
+title = "Ertzizart"
+copyright = "Ertzizart"
+theme = "silavind"
+pagination.pagerSize = 3
+hasCJKLanguage = true
+enableEmoji = true
+disableKinds = ["section", "taxonomy", "term"] # DO NOT MODIFY
+
+[params]
+    site_description = "Build the Unimagined..."
+    author = "Hao Wu"
+    intro = "Hey there! 👋 僕のブログへようこそ。 兴趣使然的业余程序员、赛车爱好者、喜欢捡垃圾, 正在学吉他, 希望能拥有一间改车房或LiveHouse。お幸せに~"
+    disableHeroVideo = false
+
+# =========================Header START==========================
+# Recommended for up to 5 items with names of less than 9 letters.
+
+[params.header]
+    [[params.header.links]]
+        name = "RSS"
+        url = "/index.xml"
+
+# ==========================Header END===========================
+
+# =========================Social START==========================
+
+[params.social]
+    [[params.social.links]]
+        name = "GitHub"
+        url = "https://github.com/ertzizart"
+
+    [[params.social.links]]
+        name = "Steam"
+        url = "https://steamcommunity.com/profiles/76561199881757634/"
+
+    [[params.social.links]]
+        name = "Mastodon"
+        url = "https://mastodon.social/@ertzizart"
+
+    [[params.social.links]]
+        name = "Bilibili"
+        url = "https://space.bilibili.com/3546898388486441"
+
+    [[params.social.links]]
+        name = "Youtube"
+        url = "https://www.youtube.com/@ertzizart"
+
+    [[params.social.links]]
+        name = "E-mail"
+        url = "mailto:ep.h.w@outlook.com"
+
+    [[params.social.links]]
+        name = "E-mail (no-reply)"
+        url = "mailto:hao.wu@ertzizart.com"
+        
+# =========================Social END==========================
+
+# ========================Project START========================
+
+[params.projects]
+
+    [[params.projects.links]]
+        name = "Silavind"
+        url = "https://github.com/ertzizart/silavind"
+        desc = "A minimalist single-page Hugo theme..."
+        start_date = "2025-08-14"
+        license = "GPL-3.0 license"
+        
+# ========================Project END========================
+
+[permalinks]
+  writings = '/writings/:2006/:01/:02/:title'
+  
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = '0.146.0'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      footnote = true
+      typographer = true

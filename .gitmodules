@@ -1,0 +1,3 @@
+[submodule "themes/silavind"]
+	path = themes/silavind
+	url = https://github.com/ertzizart/silavind
