@@ -15,9 +15,12 @@ disableKinds = ["section", "taxonomy", "term"] # DO NOT MODIFY
     disableHeroVideo = false
 
 # =========================Header START==========================
-# Recommended for up to 5 items with names of less than 9 letters.
+# Recommended for up to 4 items with names of less than 8 letters.
 
 [params.header]
+    [[params.header.links]]
+        name = "Home"
+        url = "/"
     [[params.header.links]]
         name = "RSS"
         url = "/index.xml"

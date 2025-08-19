@@ -1,5 +1,5 @@
 +++
-title = '当GitHub组织成员太多导致页面出现问题'
+title = '当Github组织的成员过多时出现了一个问题'
 date = 2021-12-13T10:18:00+08:00
 article_author = "Hao Wu [ Ertzizart ]"
 preface = ""
